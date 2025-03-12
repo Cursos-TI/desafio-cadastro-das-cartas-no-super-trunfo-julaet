@@ -30,7 +30,7 @@ int main() {
     printf("Ola! Vamos cadastrar a Carta 01:\n");
     printf("Digite um caracter de A a H para definir o Estado:\n");
     scanf(" %c", &estado1);
-    printf("Informe o codigo da carta - deve ser infmada a letra do estado seguida de um número de 01 a 04 %s\n");
+    printf("Informe o codigo da carta - deve ser infmada a letra do estado seguida de um número de 01 a 04:\n");
     scanf(" %s", &codigo1);
     printf("Digite o nome da cidade:\n");
     scanf(" %s", &cidade1);
@@ -47,7 +47,7 @@ int main() {
     printf("Agora, a Carta 02:\n");
     printf("Digite um caracter de A a H para definir o Estado:\n");
     scanf(" %c", &estado2);
-    printf("Informe o codigo da carta - deve ser infmada a letra do estado seguida de um número de 01 a 04 %s\n");
+    printf("Informe o codigo da carta - deve ser infmada a letra do estado seguida de um número de 01 a 04:\n");
     scanf(" %s", &codigo2);
     printf("Digite o nome da cidade:\n");
     scanf(" %s", &cidade2);
