@@ -94,13 +94,12 @@ int main() {
     resultPontosTur = pontosTur1 > pontosTur2;
     resultSuperPoder = superpoder1 > superpoder2;
 
-    printf("A população de %s é maior do que a de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultHab);
-    printf("A área em km2 de %s é maior do que a de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", area1, area2, resultArea);
-    printf("A densidade populacional de %s é menor do que a de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", densidadepop1, densidadepop2, resultDens);
-    printf("O PIB de %s é maior do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", pib1, pib2, resultPib);
-    printf("O PIB per Capita de %s é maior do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", pibpercapita1, pibpercapita2, resultPibPerCapita);
-    printf("O número de Pontos Turísticos de %s é maior do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", pontosTur1, pontosTur2, resultPontosTur);
-    printf("O SuperPoder de %s é melhor do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", superpoder1, superpoder2, resultSuperPoder);
-
+	printf("A população de %s é maior do que a de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultHab);
+    printf("A área em km2 de %s é maior do que a de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultArea);
+    printf("A densidade populacional de %s é menor do que a de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultDens);
+    printf("O PIB de %s é maior do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultPib);
+    printf("O PIB per Capita de %s é maior do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultPibPerCapita);
+    printf("O número de Pontos Turísticos de %s é maior do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultPontosTur);
+    printf("O SuperPoder de %s é melhor do que o de %s ? 0 para Falso, 1 para Verdadeiro. Resultado: %d\n", cidade1, cidade2, resultSuperPoder);
 
 }
